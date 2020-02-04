@@ -1,0 +1,91 @@
+body{
+	background-color: #F4E9C1;
+}
+h1{
+	font-size: 32px;
+	color: #F4E9C1;
+}
+.letterBoard{
+	border-radius: 10px;
+	
+	margin-bottom: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 4px;
+	
+	background-color:#86C2B4;
+	float: left;
+}
+.gameBoard{
+	width:980px;
+	border-radius: 10px;
+	background-color:#317174;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.containerDiv{
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+.tableSepare{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 980px;
+}
+.tableSepare.different{
+	margin-top: 7px;
+}
+.keyDiv{
+	background-color: #86C2B4;
+	
+	width: 90px;
+	height: 90px;
+	border-radius: 10px;
+	
+	margin-bottom: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 4px;	
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	float: left;
+	position: relative;
+}
+.keyboardDiv{
+	width: 980px;
+	height: 294px;
+	border-radius: 10px;
+	background-color:#317174;
+}
+.lineCenter{
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+	align-items: center;
+}
+
+.letterText{
+	color: #F4E9C1;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
