@@ -1,60 +1,60 @@
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src = "js/script.js"></script>
-	</head>
-	<body>
-		<div class="containerDiv">
-			<table>
-				<tr class="tableSepare">
-					<td>
-						<div class="gameBoard" id="gameBoardLetters">
-						</div>
-					</td>	<!--Board-->
-				</tr>
-				
-				<tr class="tableSepare different">			<!--Keyboard-->
-					<td class="lineCenter">
-						<div class="keyboardDiv">
-							<!--First Line Letters -->
-							<div class="keyDiv" id="keyQ" onmouseleave="keyboardBrightOff('Q')" onmouseover="keyboardBright('Q')" onclick="keyboardAction('Q')"><h1 id="keyTextQ">Q</h1></div>
-							<div class="keyDiv" id="keyW" onmouseleave="keyboardBrightOff('W')" onmouseover="keyboardBright('W')" onclick="keyboardAction('W')"><h1 id="keyTextW">W</h1></div>
-							<div class="keyDiv" id="keyE" onmouseleave="keyboardBrightOff('E')" onmouseover="keyboardBright('E')" onclick="keyboardAction('E')"><h1 id="keyTextE">E</h1></div>
-							<div class="keyDiv" id="keyR" onmouseleave="keyboardBrightOff('R')" onmouseover="keyboardBright('R')" onclick="keyboardAction('R')"><h1 id="keyTextR">R</h1></div>
-							<div class="keyDiv" id="keyT" onmouseleave="keyboardBrightOff('T')" onmouseover="keyboardBright('T')" onclick="keyboardAction('T')"><h1 id="keyTextT">T</h1></div>
-							<div class="keyDiv" id="keyY" onmouseleave="keyboardBrightOff('Y')" onmouseover="keyboardBright('Y')" onclick="keyboardAction('Y')"><h1 id="keyTextY">Y</h1></div>
-							<div class="keyDiv" id="keyU" onmouseleave="keyboardBrightOff('U')" onmouseover="keyboardBright('U')" onclick="keyboardAction('U')"><h1 id="keyTextU">U</h1></div>
-							<div class="keyDiv" id="keyI" onmouseleave="keyboardBrightOff('I')" onmouseover="keyboardBright('I')" onclick="keyboardAction('I')"><h1 id="keyTextI">I</h1></div>
-							<div class="keyDiv" id="keyO" onmouseleave="keyboardBrightOff('O')" onmouseover="keyboardBright('O')" onclick="keyboardAction('O')"><h1 id="keyTextO">O</h1></div>
-							<div class="keyDiv" id="keyP" onmouseleave="keyboardBrightOff('P')" onmouseover="keyboardBright('P')" onclick="keyboardAction('P')"><h1 id="keyTextP">P</h1></div>
-							
-							<!--Second Line Letters -->
-							<div class="keyDiv" id="keyA" onmouseleave="keyboardBrightOff('A')" onmouseover="keyboardBright('A')" onclick="keyboardAction('A')"><h1 id="keyTextA">A</h1></div>
-							<div class="keyDiv" id="keyS" onmouseleave="keyboardBrightOff('S')" onmouseover="keyboardBright('S')" onclick="keyboardAction('S')"><h1 id="keyTextS">S</h1></div>
-							<div class="keyDiv" id="keyD" onmouseleave="keyboardBrightOff('D')" onmouseover="keyboardBright('D')" onclick="keyboardAction('D')"><h1 id="keyTextD">D</h1></div>
-							<div class="keyDiv" id="keyF" onmouseleave="keyboardBrightOff('F')" onmouseover="keyboardBright('F')" onclick="keyboardAction('F')"><h1 id="keyTextF">F</h1></div>
-							<div class="keyDiv" id="keyG" onmouseleave="keyboardBrightOff('G')" onmouseover="keyboardBright('G')" onclick="keyboardAction('G')"><h1 id="keyTextG">G</h1></div>
-							<div class="keyDiv" id="keyH" onmouseleave="keyboardBrightOff('H')" onmouseover="keyboardBright('H')" onclick="keyboardAction('H')"><h1 id="keyTextH">H</h1></div>
-							<div class="keyDiv" id="keyJ" onmouseleave="keyboardBrightOff('J')" onmouseover="keyboardBright('J')" onclick="keyboardAction('J')"><h1 id="keyTextJ">J</h1></div>
-							<div class="keyDiv" id="keyK" onmouseleave="keyboardBrightOff('K')" onmouseover="keyboardBright('K')" onclick="keyboardAction('K')"><h1 id="keyTextK">K</h1></div>
-							<div class="keyDiv" id="keyL" onmouseleave="keyboardBrightOff('L')" onmouseover="keyboardBright('L')" onclick="keyboardAction('L')"><h1 id="keyTextL">L</h1></div>
-							<div class="keyDiv"></div>
-							
-							<!--Third Line Letters -->
-							<div class="keyDiv"></div>
-							<div class="keyDiv" id="keyZ" onmouseleave="keyboardBrightOff('Z')" onmouseover="keyboardBright('Z')" onclick="keyboardAction('Z')"><h1 id="keyTextZ">Z</h1></div>
-							<div class="keyDiv" id="keyX" onmouseleave="keyboardBrightOff('X')" onmouseover="keyboardBright('X')" onclick="keyboardAction('X')"><h1 id="keyTextX">X</h1></div>
-							<div class="keyDiv" id="keyC" onmouseleave="keyboardBrightOff('C')" onmouseover="keyboardBright('C')" onclick="keyboardAction('C')"><h1 id="keyTextC">C</h1></div>
-							<div class="keyDiv" id="keyV" onmouseleave="keyboardBrightOff('V')" onmouseover="keyboardBright('V')" onclick="keyboardAction('V')"><h1 id="keyTextV">V</h1></div>
-							<div class="keyDiv" id="keyB" onmouseleave="keyboardBrightOff('B')" onmouseover="keyboardBright('B')" onclick="keyboardAction('B')"><h1 id="keyTextB">B</h1></div>
-							<div class="keyDiv" id="keyN" onmouseleave="keyboardBrightOff('N')" onmouseover="keyboardBright('N')" onclick="keyboardAction('N')"><h1 id="keyTextN">N</h1></div>
-							<div class="keyDiv" id="keyM" onmouseleave="keyboardBrightOff('M')" onmouseover="keyboardBright('M')" onclick="keyboardAction('M')"><h1 id="keyTextM">M</h1></div>
-							<div class="keyDiv"></div>
-							<div class="keyDiv"></div>
-						</div>
-					</td>
-				</tr>
-			</table>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src = "js/script.js"></script>
+</head>
+<body>
+<div class="containerDiv">
+<table>
+<tr class="tableSepare">
+	<td>
+		<div class="gameBoard" id="gameBoardLetters">
 		</div>
-	</body>
+	</td>	<!--Board-->
+</tr>
+
+<tr class="tableSepare different">			<!--Keyboard-->
+<td class="lineCenter">
+	<div class="keyboardDiv">
+		<!--First Line Letters -->
+		<div class="keyDiv" id="keyQ" onmouseleave="keyboardBrightOff('Q')" onmouseover="keyboardBright('Q')" onclick="keyboardAction('Q')"><h1 id="keyTextQ">Q</h1></div>
+		<div class="keyDiv" id="keyW" onmouseleave="keyboardBrightOff('W')" onmouseover="keyboardBright('W')" onclick="keyboardAction('W')"><h1 id="keyTextW">W</h1></div>
+		<div class="keyDiv" id="keyE" onmouseleave="keyboardBrightOff('E')" onmouseover="keyboardBright('E')" onclick="keyboardAction('E')"><h1 id="keyTextE">E</h1></div>
+		<div class="keyDiv" id="keyR" onmouseleave="keyboardBrightOff('R')" onmouseover="keyboardBright('R')" onclick="keyboardAction('R')"><h1 id="keyTextR">R</h1></div>
+		<div class="keyDiv" id="keyT" onmouseleave="keyboardBrightOff('T')" onmouseover="keyboardBright('T')" onclick="keyboardAction('T')"><h1 id="keyTextT">T</h1></div>
+		<div class="keyDiv" id="keyY" onmouseleave="keyboardBrightOff('Y')" onmouseover="keyboardBright('Y')" onclick="keyboardAction('Y')"><h1 id="keyTextY">Y</h1></div>
+		<div class="keyDiv" id="keyU" onmouseleave="keyboardBrightOff('U')" onmouseover="keyboardBright('U')" onclick="keyboardAction('U')"><h1 id="keyTextU">U</h1></div>
+		<div class="keyDiv" id="keyI" onmouseleave="keyboardBrightOff('I')" onmouseover="keyboardBright('I')" onclick="keyboardAction('I')"><h1 id="keyTextI">I</h1></div>
+		<div class="keyDiv" id="keyO" onmouseleave="keyboardBrightOff('O')" onmouseover="keyboardBright('O')" onclick="keyboardAction('O')"><h1 id="keyTextO">O</h1></div>
+		<div class="keyDiv" id="keyP" onmouseleave="keyboardBrightOff('P')" onmouseover="keyboardBright('P')" onclick="keyboardAction('P')"><h1 id="keyTextP">P</h1></div>
+
+		<!--Second Line Letters -->
+		<div class="keyDiv" id="keyA" onmouseleave="keyboardBrightOff('A')" onmouseover="keyboardBright('A')" onclick="keyboardAction('A')"><h1 id="keyTextA">A</h1></div>
+		<div class="keyDiv" id="keyS" onmouseleave="keyboardBrightOff('S')" onmouseover="keyboardBright('S')" onclick="keyboardAction('S')"><h1 id="keyTextS">S</h1></div>
+		<div class="keyDiv" id="keyD" onmouseleave="keyboardBrightOff('D')" onmouseover="keyboardBright('D')" onclick="keyboardAction('D')"><h1 id="keyTextD">D</h1></div>
+		<div class="keyDiv" id="keyF" onmouseleave="keyboardBrightOff('F')" onmouseover="keyboardBright('F')" onclick="keyboardAction('F')"><h1 id="keyTextF">F</h1></div>
+		<div class="keyDiv" id="keyG" onmouseleave="keyboardBrightOff('G')" onmouseover="keyboardBright('G')" onclick="keyboardAction('G')"><h1 id="keyTextG">G</h1></div>
+		<div class="keyDiv" id="keyH" onmouseleave="keyboardBrightOff('H')" onmouseover="keyboardBright('H')" onclick="keyboardAction('H')"><h1 id="keyTextH">H</h1></div>
+		<div class="keyDiv" id="keyJ" onmouseleave="keyboardBrightOff('J')" onmouseover="keyboardBright('J')" onclick="keyboardAction('J')"><h1 id="keyTextJ">J</h1></div>
+		<div class="keyDiv" id="keyK" onmouseleave="keyboardBrightOff('K')" onmouseover="keyboardBright('K')" onclick="keyboardAction('K')"><h1 id="keyTextK">K</h1></div>
+		<div class="keyDiv" id="keyL" onmouseleave="keyboardBrightOff('L')" onmouseover="keyboardBright('L')" onclick="keyboardAction('L')"><h1 id="keyTextL">L</h1></div>
+		<div class="keyDiv"></div>
+
+		<!--Third Line Letters -->
+		<div class="keyDiv"></div>
+		<div class="keyDiv" id="keyZ" onmouseleave="keyboardBrightOff('Z')" onmouseover="keyboardBright('Z')" onclick="keyboardAction('Z')"><h1 id="keyTextZ">Z</h1></div>
+		<div class="keyDiv" id="keyX" onmouseleave="keyboardBrightOff('X')" onmouseover="keyboardBright('X')" onclick="keyboardAction('X')"><h1 id="keyTextX">X</h1></div>
+		<div class="keyDiv" id="keyC" onmouseleave="keyboardBrightOff('C')" onmouseover="keyboardBright('C')" onclick="keyboardAction('C')"><h1 id="keyTextC">C</h1></div>
+		<div class="keyDiv" id="keyV" onmouseleave="keyboardBrightOff('V')" onmouseover="keyboardBright('V')" onclick="keyboardAction('V')"><h1 id="keyTextV">V</h1></div>
+		<div class="keyDiv" id="keyB" onmouseleave="keyboardBrightOff('B')" onmouseover="keyboardBright('B')" onclick="keyboardAction('B')"><h1 id="keyTextB">B</h1></div>
+		<div class="keyDiv" id="keyN" onmouseleave="keyboardBrightOff('N')" onmouseover="keyboardBright('N')" onclick="keyboardAction('N')"><h1 id="keyTextN">N</h1></div>
+		<div class="keyDiv" id="keyM" onmouseleave="keyboardBrightOff('M')" onmouseover="keyboardBright('M')" onclick="keyboardAction('M')"><h1 id="keyTextM">M</h1></div>
+		<div class="keyDiv"></div>
+		<div class="keyDiv"></div>
+	</div>
+</td>
+</tr>
+</table>
+</div>
+</body>
 </html>
